@@ -1,0 +1,59 @@
+2020-07-29T18:45:00        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() begin			witness.cpp:121
+2020-07-29T18:45:00        th_a:?unnamed?      add_private_key ] Public Key: BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV			witness.cpp:114
+2020-07-29T18:45:00        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() end			witness.cpp:167
+2020-07-29T18:45:00        th_a:?unnamed?                 open ] Opening object database from /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain ...			object_database.cpp:114
+2020-07-29T18:47:38        th_a:?unnamed?                 open ] 8 out_of_range_exception: Out of Range
+read datastream of length 266805248 over by -29
+    {"method":"read","len":266805248,"over":-29}
+    pool worker 3  datastream.cpp:6 throw_datastream_range_error
+
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  object_database.cpp:125 open			db_management.cpp:224
+2020-07-29T18:47:38        th_a:?unnamed?                 open ] data_dir: /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain 			db_management.cpp:224
+2020-07-29T18:47:38        th_a:?unnamed?              startup ] Caught exception 8 out_of_range_exception: Out of Range
+read datastream of length 266805248 over by -29
+    {"method":"read","len":266805248,"over":-29}
+    pool worker 3  datastream.cpp:6 throw_datastream_range_error
+
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  object_database.cpp:125 open
+rethrow
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  db_management.cpp:224 open in open(), you might want to force a replay			application.cpp:436
+2020-07-29T18:47:38        th_a:?unnamed?              startup ] 8 out_of_range_exception: Out of Range
+read datastream of length 266805248 over by -29
+    {"method":"read","len":266805248,"over":-29}
+    pool worker 3  datastream.cpp:6 throw_datastream_range_error
+
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  object_database.cpp:125 open
+rethrow
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  db_management.cpp:224 open			application.cpp:487
+2020-07-29T18:47:38        th_a:?unnamed?              startup ] 8 out_of_range_exception: Out of Range
+read datastream of length 266805248 over by -29
+    {"method":"read","len":266805248,"over":-29}
+    pool worker 3  datastream.cpp:6 throw_datastream_range_error
+
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  object_database.cpp:125 open
+rethrow
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  db_management.cpp:224 open
+rethrow
+    {}
+    th_a  application.cpp:487 startup			application.cpp:1083
+2020-07-29T18:47:38        th_a:?unnamed?                 main ] Exiting with error:
+8 out_of_range_exception: Out of Range
+read datastream of length 266805248 over by -29
+    {"method":"read","len":266805248,"over":-29}
+    pool worker 3  datastream.cpp:6 throw_datastream_range_error
+
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  object_database.cpp:125 open
+rethrow
+    {"data_dir":"/media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain"}
+    th_a  db_management.cpp:224 open
+rethrow
+    {}
+    th_a  application.cpp:487 startup			main.cpp:203

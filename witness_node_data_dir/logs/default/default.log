@@ -1,0 +1,6 @@
+2020-08-01T08:21:11        th_a:?unnamed?              reindex ] Done			db_management.cpp:144
+2020-08-01T08:23:32        th_a:?unnamed?              reindex ]    [by size: 100.16946%   12820105908 of 12798417761]   [by num: 99.96610%   25250000 of 25258563]			db_management.cpp:130
+2020-08-01T08:31:14        th_a:?unnamed?              reindex ] Done reindexing, elapsed time: 52595.15953399999852991 sec			db_management.cpp:159
+2020-08-01T08:31:18        th_a:?unnamed?       reset_p2p_node ] Configured p2p node to listen on 0.0.0.0:46127			application.cpp:150
+2020-08-01T08:31:18        th_a:?unnamed?      startup_plugins ] Plugin account_history started			application.cpp:1184
+2020-08-01T08:31:18        th_a:?unnamed?       plugin_startup ] api_helper_indexes: plugin_startup() begin			api_helper_indexes.cpp:149
