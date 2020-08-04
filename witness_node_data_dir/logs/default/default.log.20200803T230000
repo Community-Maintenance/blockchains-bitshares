@@ -1,0 +1,28 @@
+2020-08-03T23:10:24        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() begin			witness.cpp:121
+2020-08-03T23:10:24        th_a:?unnamed?      add_private_key ] Public Key: BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV			witness.cpp:114
+2020-08-03T23:10:24        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() end			witness.cpp:167
+2020-08-03T23:10:24        th_a:?unnamed?                 open ] Opening object database from /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain ...			object_database.cpp:114
+2020-08-03T23:17:55        th_a:?unnamed?                 open ] Done opening object database.			object_database.cpp:123
+2020-08-03T23:17:55        th_a:?unnamed?              reindex ] reindexing blockchain			db_management.cpp:65
+2020-08-03T23:17:55        th_a:?unnamed?              reindex ] Replaying blocks, starting at 25248563...			db_management.cpp:70
+2020-08-03T23:24:47 th_a:invoke handle_block         handle_block ] Got block: #25260000 01816fe0dae5887bc617f98399a10f9e520b7929 time: 2018-03-15T21:40:48 transaction(s): 18 latency: 75347039507 ms from: openledger-dc  irreversible: 25259830 (-170)			application.cpp:540
+2020-08-03T23:25:39        th_a:?unnamed?              reindex ] Writing database to disk at block 25249378			db_management.cpp:142
+2020-08-03T23:48:10   fc::asio :?unnamed?           operator() ] Caught SIGINT attempting to exit cleanly			main.cpp:178
+2020-08-03T23:48:11        th_a:?unnamed?                 main ] Exiting from signal 2			main.cpp:191
+2020-08-03T23:48:12 th_a:invoke handle_block          _push_block ] Failed to push new block:
+10 assert_exception: Assert Exception
+tag >= 0 && static_cast<size_t>(tag) < count(): Unsupported type 140111481845680!
+    {"tag":"140111481845680"}
+    th_a  static_variant.hpp:299 visit
+
+    {"next_block.block_num()":25261330}
+    th_a  db_block.cpp:659 _apply_block			db_block.cpp:221
+2020-08-03T23:48:12 th_a:invoke handle_block         handle_block ] Got block: #25261524 018175d44e6fc146ba2c6195ff94a700aee3f256 time: 2018-03-15T22:57:12 transaction(s): 13 latency: 75343860168 ms from: delegate.freedom  irreversible: 25261312 (-212)			application.cpp:540
+2020-08-03T23:48:12           pool work:? segfault_signal_hand ]  0# 0x0000562DAA5B995A in bin/Ubuntu-focal-x86_64-2.0.171025-minor-fix-1-3268-gc287ce6c/witness_node
+ 1# 0x00007F6EA8D3E210 in /lib/x86_64-linux-gnu/libc.so.6
+ 2# 0x00007F6E40E92FB0
+			stacktrace.cpp:45
+2020-08-03T23:48:20        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() begin			witness.cpp:121
+2020-08-03T23:48:20        th_a:?unnamed?      add_private_key ] Public Key: BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV			witness.cpp:114
+2020-08-03T23:48:20        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() end			witness.cpp:167
+2020-08-03T23:48:21        th_a:?unnamed?                 open ] Opening object database from /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain ...			object_database.cpp:114

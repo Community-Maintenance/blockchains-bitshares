@@ -1,0 +1,23 @@
+2020-08-03T19:14:30        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() begin			witness.cpp:121
+2020-08-03T19:14:30        th_a:?unnamed?      add_private_key ] Public Key: BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV			witness.cpp:114
+2020-08-03T19:14:30        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() end			witness.cpp:167
+2020-08-03T19:14:30        th_a:?unnamed?                 open ] Opening object database from /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain ...			object_database.cpp:114
+2020-08-03T19:19:06        th_a:?unnamed?                 open ] Done opening object database.			object_database.cpp:123
+2020-08-03T19:19:06        th_a:?unnamed?              reindex ] reindexing blockchain			db_management.cpp:65
+2020-08-03T19:19:06        th_a:?unnamed?              reindex ] Replaying blocks, starting at 25248563...			db_management.cpp:70
+2020-08-03T19:19:06        th_a:?unnamed?              reindex ] Writing database to disk at block 25248563			db_management.cpp:142
+2020-08-03T19:28:20        th_a:?unnamed?              reindex ] Done			db_management.cpp:144
+2020-08-03T19:29:48        th_a:?unnamed?              reindex ]    [by size: 100.16765%   12958627578 of 12936939431]   [by num: 99.96610%   25250000 of 25258563]			db_management.cpp:130
+2020-08-03T19:32:54        th_a:?unnamed?              reindex ] Done reindexing, elapsed time: 828.18497700000000350 sec			db_management.cpp:159
+2020-08-03T19:32:56        th_a:?unnamed?       reset_p2p_node ] Configured p2p node to listen on 0.0.0.0:40951			application.cpp:150
+2020-08-03T19:32:56        th_a:?unnamed?      startup_plugins ] Plugin account_history started			application.cpp:1184
+2020-08-03T19:32:56        th_a:?unnamed?       plugin_startup ] api_helper_indexes: plugin_startup() begin			api_helper_indexes.cpp:149
+2020-08-03T19:34:31        th_a:?unnamed?      startup_plugins ] Plugin api_helper_indexes started			application.cpp:1184
+2020-08-03T19:34:36        th_a:?unnamed?      startup_plugins ] Plugin grouped_orders started			application.cpp:1184
+2020-08-03T19:34:36        th_a:?unnamed?      startup_plugins ] Plugin market_history started			application.cpp:1184
+2020-08-03T19:34:36        th_a:?unnamed?       plugin_startup ] witness plugin:  plugin_startup() begin			witness.cpp:172
+2020-08-03T19:34:36        th_a:?unnamed?       plugin_startup ] No witness configured.			witness.cpp:193
+2020-08-03T19:34:36        th_a:?unnamed?       plugin_startup ] witness plugin:  plugin_startup() end			witness.cpp:195
+2020-08-03T19:34:36        th_a:?unnamed?      startup_plugins ] Plugin witness started			application.cpp:1184
+2020-08-03T19:34:36        th_a:?unnamed?                 main ] Started BitShares node on a chain with 25258563 blocks.			main.cpp:187
+2020-08-03T19:34:36        th_a:?unnamed?                 main ] Chain ID is 4018d7844c78f6a6c41c6a552b898022310fc5dec06da467ee7905a8dad512c8			main.cpp:188

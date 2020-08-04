@@ -1,0 +1,8 @@
+2020-08-03T18:44:34        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() begin			witness.cpp:121
+2020-08-03T18:44:34        th_a:?unnamed?      add_private_key ] Public Key: BTS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV			witness.cpp:114
+2020-08-03T18:44:34        th_a:?unnamed?    plugin_initialize ] witness plugin:  plugin_initialize() end			witness.cpp:167
+2020-08-03T18:44:34        th_a:?unnamed?                 open ] Opening object database from /media/karl/microsd-onno/src-onno-karl/trading-setup/witness_node_data_dir/blockchain ...			object_database.cpp:114
+2020-08-03T18:49:18        th_a:?unnamed?                 open ] Done opening object database.			object_database.cpp:123
+2020-08-03T18:49:19        th_a:?unnamed?              reindex ] reindexing blockchain			db_management.cpp:65
+2020-08-03T18:49:19        th_a:?unnamed?              reindex ] Replaying blocks, starting at 25248563...			db_management.cpp:70
+2020-08-03T18:49:19        th_a:?unnamed?              reindex ] Writing database to disk at block 25248563			db_management.cpp:142

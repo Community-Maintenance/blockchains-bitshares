@@ -1,0 +1,7 @@
+2020-08-04T00:17:03        th_a:?unnamed?                 open ] Done opening object database.			object_database.cpp:123
+2020-08-04T00:17:04        th_a:?unnamed?              reindex ] reindexing blockchain			db_management.cpp:65
+2020-08-04T00:17:04        th_a:?unnamed?              reindex ] Replaying blocks, starting at 25248563...			db_management.cpp:70
+2020-08-04T00:22:01        th_a:?unnamed?              reindex ]    [by size: 99.54687%   12958669138 of 13017655476]   [by num: 99.95515%   25250000 of 25261329]			db_management.cpp:130
+2020-08-04T00:22:49        th_a:?unnamed?              reindex ] Writing database to disk at block 25251329			db_management.cpp:142
+2020-08-04T00:50:27        th_a:?unnamed?              reindex ] Done			db_management.cpp:144
+2020-08-04T00:59:51        th_a:?unnamed?              reindex ]    [by size: 100.35286%   13063589041 of 13017655476]   [by num: 99.99474%   25260000 of 25261329]			db_management.cpp:130
